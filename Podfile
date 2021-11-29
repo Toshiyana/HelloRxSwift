@@ -6,6 +6,7 @@ target 'HelloRxSwift' do
 
   # Pods for HelloRxSwift
   
-  pod 'RxSwift', '~> 4.0' 
+  pod 'RxSwift', '~> 5.0'
+  pod 'RxRelay'
 
 end

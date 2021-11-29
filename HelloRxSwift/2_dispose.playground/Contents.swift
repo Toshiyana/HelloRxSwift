@@ -15,7 +15,7 @@ Observable.of("A", "B", "C")
 
 // Create function (= different way of creating observation)
 // Create function is similar to subscription
-
+// Create function allows you to specify "next", "completed"
 Observable<String>.create { observer in
     
     // gives observerable to create function

@@ -20,6 +20,9 @@
 		512B6E1F404282B8A07BF991 /* Pods-HelloRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxSwift.release.xcconfig"; path = "Target Support Files/Pods-HelloRxSwift/Pods-HelloRxSwift.release.xcconfig"; sourceTree = "<group>"; };
 		5528766B059417D29E74FCA7 /* Pods-HelloRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-HelloRxSwift/Pods-HelloRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		70B22D1D9FA26DCB8147B170 /* Pods_HelloRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99079D4B275538BB006D75CA /* 7_BehaviorRelay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 7_BehaviorRelay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		995FD89E275524CC0027AFF4 /* 5_ReplaySubjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_ReplaySubjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		995FD89F2755324B0027AFF4 /* 6_Variables_Deprecated.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 6_Variables_Deprecated.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		99BD680B2753C4B9001EA91E /* HelloRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99BD680E2753C4B9001EA91E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99BD68102753C4B9001EA91E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,8 +31,10 @@
 		99BD68172753C4BD001EA91E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99BD681A2753C4BD001EA91E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99BD681C2753C4BD001EA91E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		99BD68222753CEF2001EA91E /* RxSwift_subscribe.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift_subscribe.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		99BD68232753E84A001EA91E /* RxSwift_dispose.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift_dispose.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		99BD68222753CEF2001EA91E /* 1_subscribe.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_subscribe.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		99BD68232753E84A001EA91E /* 2_dispose.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_dispose.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		99BD68242754E550001EA91E /* 3_PublishSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_PublishSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		99BD68252754F084001EA91E /* 4_BehaviorSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_BehaviorSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +87,13 @@
 		99BD680D2753C4B9001EA91E /* HelloRxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				99BD68222753CEF2001EA91E /* RxSwift_subscribe.playground */,
-				99BD68232753E84A001EA91E /* RxSwift_dispose.playground */,
+				99BD68222753CEF2001EA91E /* 1_subscribe.playground */,
+				99BD68232753E84A001EA91E /* 2_dispose.playground */,
+				99BD68242754E550001EA91E /* 3_PublishSubject.playground */,
+				99BD68252754F084001EA91E /* 4_BehaviorSubject.playground */,
+				995FD89E275524CC0027AFF4 /* 5_ReplaySubjects.playground */,
+				995FD89F2755324B0027AFF4 /* 6_Variables_Deprecated.playground */,
+				99079D4B275538BB006D75CA /* 7_BehaviorRelay.playground */,
 				99BD680E2753C4B9001EA91E /* AppDelegate.swift */,
 				99BD68102753C4B9001EA91E /* SceneDelegate.swift */,
 				99BD68122753C4B9001EA91E /* ViewController.swift */,
