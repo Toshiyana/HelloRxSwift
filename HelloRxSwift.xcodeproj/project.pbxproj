@@ -23,6 +23,7 @@
 		99079D4B275538BB006D75CA /* 7_BehaviorRelay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 7_BehaviorRelay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		995FD89E275524CC0027AFF4 /* 5_ReplaySubjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_ReplaySubjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		995FD89F2755324B0027AFF4 /* 6_Variables_Deprecated.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 6_Variables_Deprecated.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		99B9EBAF2759FB05005C7058 /* 1_Ignore.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_Ignore.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		99BD680B2753C4B9001EA91E /* HelloRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99BD680E2753C4B9001EA91E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99BD68102753C4B9001EA91E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +67,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		99B9EBAE2759FABB005C7058 /* FilteringOperators */ = {
+			isa = PBXGroup;
+			children = (
+				99B9EBAF2759FB05005C7058 /* 1_Ignore.playground */,
+			);
+			path = FilteringOperators;
+			sourceTree = "<group>";
+		};
 		99BD68022753C4B9001EA91E = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +96,7 @@
 		99BD680D2753C4B9001EA91E /* HelloRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				99B9EBAE2759FABB005C7058 /* FilteringOperators */,
 				99BD68222753CEF2001EA91E /* 1_subscribe.playground */,
 				99BD68232753E84A001EA91E /* 2_dispose.playground */,
 				99BD68242754E550001EA91E /* 3_PublishSubject.playground */,
